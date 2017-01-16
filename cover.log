@@ -1,6 +1,6 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.3)  15 JAN 2017 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.3)  16 JAN 2017 05:09
 entering extended mode
- restricted \write18 enabled.
+ \write18 enabled.
  %&-line parsing enabled.
 **cover.tex
 (./cover.tex
@@ -322,14 +322,14 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.17 \\
-       [0.4cm]
+       [0.8cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
 l.18 { \huge
-             \bfseries –ò—Å—Å–ª–µ–¥–æ–≤–∞–Ω–∏–µ —Å–æ–≤—Ä–µ–º–µ–Ω–Ω–æ–≥–æ –≤—...
+             \bfseries –ò—Å—Å–ª–µ–¥–æ–≤–∞–Ω–∏–µ —Ä–∞–±–æ—Ç—ã –∏–º–ø—É–ª—å—Å–...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -361,53 +361,31 @@ Missing character: There is no ∏ in font cmbx10!
 Missing character: There is no – in font cmbx10!
 Missing character: There is no µ in font cmbx10!
 Missing character: There is no — in font cmbx10!
-Missing character: There is no Å in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no æ in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no ≤ in font cmbx10!
-Missing character: There is no — in font cmbx10!
 Missing character: There is no Ä in font cmbx10!
 Missing character: There is no – in font cmbx10!
-Missing character: There is no µ in font cmbx10!
+Missing character: There is no ∞ in font cmbx10!
+Missing character: There is no – in font cmbx10!
+Missing character: There is no ± in font cmbx10!
+Missing character: There is no – in font cmbx10!
+Missing character: There is no æ in font cmbx10!
+Missing character: There is no — in font cmbx10!
+Missing character: There is no Ç in font cmbx10!
+Missing character: There is no — in font cmbx10!
+Missing character: There is no ã in font cmbx10!
+Missing character: There is no – in font cmbx10!
+Missing character: There is no ∏ in font cmbx10!
 Missing character: There is no – in font cmbx10!
 Missing character: There is no º in font cmbx10!
 Missing character: There is no – in font cmbx10!
-Missing character: There is no µ in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no Ω in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no Ω in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no æ in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no ≥ in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no æ in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no ≤ in font cmbx10!
+Missing character: There is no ø in font cmbx10!
 Missing character: There is no — in font cmbx10!
-Missing character: There is no ã in font cmbx10!
+Missing character: There is no É in font cmbx10!
+Missing character: There is no – in font cmbx10!
+Missing character: There is no ª in font cmbx10!
+Missing character: There is no — in font cmbx10!
+Missing character: There is no å in font cmbx10!
 Missing character: There is no — in font cmbx10!
 Missing character: There is no Å in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no æ in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no ∫ in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no æ in font cmbx10!
-Missing character: There is no — in font cmbx10!
-Missing character: There is no á in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no ∞ in font cmbx10!
-Missing character: There is no — in font cmbx10!
-Missing character: There is no Å in font cmbx10!
-Missing character: There is no — in font cmbx10!
-Missing character: There is no Ç in font cmbx10!
-Missing character: There is no – in font cmbx10!
-Missing character: There is no æ in font cmbx10!
-Missing character: There is no — in font cmbx10!
-Missing character: There is no Ç in font cmbx10!
 Missing character: There is no – in font cmbx10!
 Missing character: There is no Ω in font cmbx10!
 Missing character: There is no – in font cmbx10!
@@ -467,7 +445,7 @@ Missing character: There is no ∏ in font cmbx10!
 Missing character: There is no — in font cmbx10!
 Missing character: There is no è in font cmbx10!
 ! Undefined control sequence.
-l.21 \HRule
+l.20 \HRule
            
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -482,14 +460,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \\
+l.21 \\
        [1.5cm]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.31 	\begin{flushleft} \large
+l.30 	\begin{flushleft} \large
                               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -512,32 +490,40 @@ Missing character: There is no Ω in font cmss10!
 Missing character: There is no — in font cmss10!
 Missing character: There is no Ç in font cmss10!
 Missing character: There is no – in font nullfont!
-Missing character: There is no † in font nullfont!
+Missing character: There is no ì in font nullfont!
+Missing character: There is no – in font nullfont!
+Missing character: There is no µ in font nullfont!
+Missing character: There is no – in font nullfont!
+Missing character: There is no æ in font nullfont!
+Missing character: There is no — in font nullfont!
+Missing character: There is no Ä in font nullfont!
+Missing character: There is no – in font nullfont!
+Missing character: There is no ≥ in font nullfont!
 Missing character: There is no – in font nullfont!
 Missing character: There is no ∏ in font nullfont!
-Missing character: There is no — in font nullfont!
-Missing character: There is no à in font nullfont!
 Missing character: There is no – in font nullfont!
-Missing character: There is no ∞ in font nullfont!
-Missing character: There is no — in font nullfont!
-Missing character: There is no Ç in font nullfont!
+Missing character: There is no π in font nullfont!
 Missing character: There is no – in font cmcsc10!
-Missing character: There is no ò in font cmcsc10!
+Missing character: There is no ö in font cmcsc10!
+Missing character: There is no – in font cmcsc10!
+Missing character: There is no æ in font cmcsc10!
 Missing character: There is no — in font cmcsc10!
-Missing character: There is no Å in font cmcsc10!
-Missing character: There is no — in font cmcsc10!
-Missing character: There is no Ö in font cmcsc10!
+Missing character: There is no Ä in font cmcsc10!
+Missing character: There is no – in font cmcsc10!
+Missing character: There is no µ in font cmcsc10!
+Missing character: There is no – in font cmcsc10!
+Missing character: There is no ø in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
 Missing character: There is no ∞ in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
-Missing character: There is no ∫ in font cmcsc10!
+Missing character: There is no Ω in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
 Missing character: There is no æ in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
 Missing character: There is no ≤ in font cmcsc10!
 Missing character: There is no 5 in font nullfont!
 Missing character: There is no 1 in font nullfont!
-Missing character: There is no 3 in font nullfont!
+Missing character: There is no 2 in font nullfont!
 Missing character: There is no – in font nullfont!
 Missing character: There is no ≥ in font nullfont!
 Missing character: There is no — in font nullfont!
@@ -551,11 +537,11 @@ Missing character: There is no ø in font nullfont!
 Missing character: There is no – in font nullfont!
 Missing character: There is no ∞ in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 36.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 36.
 ! Undefined control sequence.
-l.40 	\begin{flushright} \large
+l.39 	\begin{flushright} \large
                                
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -592,31 +578,25 @@ Missing character: There is no å in font cmss10!
 Missing character: There is no – in font nullfont!
 Missing character: There is no í in font nullfont!
 Missing character: There is no – in font nullfont!
-Missing character: There is no ∞ in font nullfont!
-Missing character: There is no – in font nullfont!
-Missing character: There is no ª in font nullfont!
-Missing character: There is no – in font nullfont!
-Missing character: There is no µ in font nullfont!
-Missing character: There is no — in font nullfont!
-Missing character: There is no Ä in font nullfont!
-Missing character: There is no – in font nullfont!
 Missing character: There is no ∏ in font nullfont!
-Missing character: There is no – in font nullfont!
-Missing character: There is no π in font nullfont!
-Missing character: There is no – in font nullfont!
-Missing character: There is no ê in font nullfont!
-Missing character: There is no – in font nullfont!
-Missing character: There is no ª in font nullfont!
-Missing character: There is no – in font nullfont!
-Missing character: There is no µ in font nullfont!
 Missing character: There is no – in font nullfont!
 Missing character: There is no ∫ in font nullfont!
 Missing character: There is no — in font nullfont!
-Missing character: There is no Å in font nullfont!
+Missing character: There is no Ç in font nullfont!
 Missing character: There is no – in font nullfont!
-Missing character: There is no µ in font nullfont!
+Missing character: There is no æ in font nullfont!
+Missing character: There is no — in font nullfont!
+Missing character: There is no Ä in font nullfont!
 Missing character: There is no – in font nullfont!
-Missing character: There is no µ in font nullfont!
+Missing character: There is no ò in font nullfont!
+Missing character: There is no – in font nullfont!
+Missing character: There is no ≤ in font nullfont!
+Missing character: There is no – in font nullfont!
+Missing character: There is no ∞ in font nullfont!
+Missing character: There is no – in font nullfont!
+Missing character: There is no Ω in font nullfont!
+Missing character: There is no – in font nullfont!
+Missing character: There is no æ in font nullfont!
 Missing character: There is no – in font nullfont!
 Missing character: There is no ≤ in font nullfont!
 Missing character: There is no – in font nullfont!
@@ -624,26 +604,26 @@ Missing character: There is no ∏ in font nullfont!
 Missing character: There is no — in font nullfont!
 Missing character: There is no á in font nullfont!
 Missing character: There is no – in font cmcsc10!
-Missing character: There is no î in font cmcsc10!
+Missing character: There is no ß in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
-Missing character: There is no ∞ in font cmcsc10!
+Missing character: There is no ∏ in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
-Missing character: There is no Ω in font cmcsc10!
+Missing character: There is no ≤ in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
 Missing character: There is no ∏ in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
 Missing character: There is no ª in font cmcsc10!
+Missing character: There is no — in font cmcsc10!
+Missing character: There is no ë in font cmcsc10!
 Missing character: There is no – in font cmcsc10!
-Missing character: There is no ∏ in font cmcsc10!
-Missing character: There is no – in font cmcsc10!
-Missing character: There is no Ω in font cmcsc10!
+Missing character: There is no ≤ in font cmcsc10!
 
-Overfull \hbox (3276.74998pt too wide) in paragraph at lines 30--47
+Overfull \hbox (3276.74998pt too wide) in paragraph at lines 29--46
  []$[]$ 
  []
 
 
-Overfull \hbox (3276.74998pt too wide) in paragraph at lines 30--47
+Overfull \hbox (3276.74998pt too wide) in paragraph at lines 29--46
  []$ 
  []
 
@@ -654,14 +634,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \begin{bottompar}
+l.47 \begin{bottompar}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ! Undefined control sequence.
-l.50 		\includegraphics
+l.49 		\includegraphics
                        [width = 80 mm]{logo.jpg}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -690,7 +670,7 @@ Missing character: There is no j in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
-l.52 	{\large
+l.51 	{\large
               \today}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -699,7 +679,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.52 	{\large \today
+l.51 	{\large \today
                     }
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -714,7 +694,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.54 \end{bottompar}
+l.53 \end{bottompar}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -727,7 +707,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.57 \end{titlepage}
+l.56 \end{titlepage}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,

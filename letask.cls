@@ -6,7 +6,6 @@
 \RequirePackage[T2A, T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
 \RequirePackage[english, russian]{babel}
-\RequirePackage{iunits}
 
 % Беспредел
 \let\NOLIMITS\nolimits
@@ -19,18 +18,19 @@
 \RequirePackage{bigints}
 \RequirePackage{cancel}
 \RequirePackage{mathrsfs}
+\RequirePackage{icomma}
 
 % Разметка
 \RequirePackage [hcentering,
-	bindingoffset = 10mm, 
-	right = 15 mm, 
-	left = 15 mm, 
-	top=20mm, 
+	bindingoffset = 10 mm, 
+	right = 20 mm, 
+	left = 20 mm, 
+	top = 20 mm, 
 	bottom = 20 mm] {geometry}
 \RequirePackage[unicode]{hyperref}
 \setlength{\parskip}{0.5em}
 \setlength{\parindent}{0em}
-\renewcommand{\baselinestretch}{1.15}
+\renewcommand{\baselinestretch}{1.07}
 \newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
 \RequirePackage{titlesec}
 \titlelabel{\thetitle.\quad}
@@ -53,14 +53,3 @@
 \renewcommand{\headrulewidth}{0pt}
 \renewcommand{\footrulewidth}{0pt}
 \fancyfoot[C]{\texttt{-~\thepage~-}}
-
-
-% Для формул
-\newcommand{\rskip}{\vspace{-1em}}
-\newcommand{\aftermath}{\vspace{-2.1em}}
-\newcommand{\const}{\text{const}}
-\newcommand{\then}{\quad\Rightarrow\quad}
-\newcommand{\ef}{\mathscr{E}}
-
-% Прочее
-\RequirePackage{enumitem}

@@ -7,7 +7,7 @@ set ylabel "$I,$ \\m\\A"
 set xlabel "$s^2$"
 set key off
 set grid
-set size 1.2,1.1
+set size 1.1,1.0
 
 f(x) = a*x
 fit f(x) "data2.dat" using 2:1 via a
