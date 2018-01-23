@@ -1,7 +1,7 @@
 \documentclass{urticle}
 
 \newenvironment{bottompar}{\par\vspace*{\fill}}{\clearpage}
-
+\usepackage{hyperref}
 \begin{document}
 \include{cover}
 
@@ -42,7 +42,7 @@ $$x_T(t+\tau) = \frac{1}{2\pi}\int_{-\infty}^{\infty}x_T(\omega)e^{i\omega(t+\ta
 	=\lim\limits_{T\rightarrow\infty} \frac{1}{2\pi}\int_{-\infty}^{\infty}|x_T(\omega)|^2 e^{i\omega\tau} d\omega = \frac{1}{2}\int_{-\infty}^{\infty} S(\omega) e^{i\omega \tau} d \omega 
 \end{multline*}
 
-В последнем равенстве переставлены местами операция интегрирования и предельного перехода, что обоснованно теоремой об однородной сходимости\footnote{материалы по математическому анализу Карасева Р.Н, \href{rkarasev.ru}}, а также использовано статистическое определение спектральной плотности $S(\omega)$.
+В последнем равенстве переставлены местами операция интегрирования и предельного перехода, что обоснованно теоремой об однородной сходимости\footnote{материалы по математическому анализу Карасева Р.Н, \href{http://www.rkarasev.ru}{rkarasev.ru}}, а также использовано статистическое определение спектральной плотности $S(\omega)$.
 
 $S(\omega)$ определяется как усредненная спектральная характеристика спектрального процесса:
 $$S(\omega) = \lim\limits_{T\rightarrow\infty} \frac{|x_T(\omega)|^2}{\pi T}.$$
@@ -190,6 +190,7 @@ $$\boxed{\Gamma(\tau) = \frac{1}{2}\int_{-\infty}^{\infty} S(\omega) e^{i\omega 
 	
 \section*{Выводы}
 \begin{enumerate}
+    \setcounter{enumi}{0}
 	\item Изучен принцип Фурье-спектроскопии
 	\item Исследованы перспективы использования различных интерференционных схем для реализации указанного метода
 	\item Использована схема с двумя полоскопараллельными пластинками
