@@ -25,21 +25,21 @@ $$x(t) = x_1(t) + x_2(t) = \sin(\omega_1 t) + \sin(\omega_2 t) =
 
 Функция автокорелляции в терминах усреднения по времени может быть записана следующим образом:
 	$$\Gamma(\tau) = \lim\limits_{T\rightarrow\infty} \frac{1}{T} \int_{-T/2}^{T/2} x(t)x(t+\tau)dt.$$
-	
+
 Для ограниченных во времени процессов указанный предел равен нулю $\forall \tau$, однако для случайного стационарного процесса предел вполне имеет смысл. Для дальнейшей работы с преобразованием Фурье рассмотрим одну из реализаций $x_T(t)$ процесса $x(t)$, обрезав его вне временного интервала $[-T/2, T/2]$:
 $$x_T(t) = x(t), t \in [-T/2, T/2],$$
 $$x_T(t) = 0 ,  t \notin [-T/2, T/2].$$
 
 Ограниченная во времени реализация может быть записана через преобразование Фурье:
-
 $$x_T(t+\tau) = \frac{1}{2\pi}\int_{-\infty}^{\infty}x_T(\omega)e^{i\omega(t+\tau)}d\omega.$$
 
 Подставив это разложение в определение $\Gamma$, поменяв порядок интегрирования, получим
 \begin{multline*}
 	\Gamma(\tau) = \lim\limits_{T\rightarrow\infty} \frac{1}{T} \int_{-T/2}^{T/2} x(t) \left[ \frac{1}{2\pi}\int_{-\infty}^{\infty}x_T(\omega)e^{i\omega(t+\tau)}d\omega \right ] dt =\\
-	=\lim\limits_{T\rightarrow\infty} \frac{1}{2\pi}\int_{-\infty}^{\infty}x_T(\omega)e^{i\omega\tau}d\omega \int_{-T/2}^{T/2} x_T(t) e^{i \omega t} dt =\\
-	=\lim\limits_{T\rightarrow\infty} \frac{1}{2\pi}\int_{-\infty}^{\infty}x_T(\omega)e^{i\omega\tau} {x_T}^*(\omega) d\omega =\\
-	=\lim\limits_{T\rightarrow\infty} \frac{1}{2\pi}\int_{-\infty}^{\infty}|x_T(\omega)|^2 e^{i\omega\tau} d\omega = \frac{1}{2}\int_{-\infty}^{\infty} S(\omega) e^{i\omega \tau} d \omega 
+	=\lim\limits_{T\rightarrow\infty} \frac{1}{T} \frac{1}{2\pi}\int_{-\infty}^{\infty}x_T(\omega)e^{i\omega\tau}d\omega \int_{-T/2}^{T/2} x_T(t) e^{i \omega t} dt =\\
+	=\lim\limits_{T\rightarrow\infty} \frac{1}{T} \frac{1}{2\pi}\int_{-\infty}^{\infty}x_T(\omega)e^{i\omega\tau} {x_T}^*(\omega) d\omega =\\
+	=\lim\limits_{T\rightarrow\infty} \frac{1}{T} \frac{1}{2\pi}\int_{-\infty}^{\infty}|x_T(\omega)|^2 e^{i\omega\tau} d\omega =\\
+	=\frac{1}{2} \int_{-\infty}^{\infty} \lim\limits_{T\rightarrow\infty} \left( \frac{|x_T(\omega)|^2}{\pi T} \right) e^{i\omega\tau} d\omega
 \end{multline*}
 
 В последнем равенстве переставлены местами операция интегрирования и предельного перехода, что обоснованно теоремой об однородной сходимости\footnote{материалы по математическому анализу Карасева Р.Н, \href{http://www.rkarasev.ru}{rkarasev.ru}}, а также использовано статистическое определение спектральной плотности $S(\omega)$.
@@ -49,17 +49,13 @@ $$S(\omega) = \lim\limits_{T\rightarrow\infty} \frac{|x_T(\omega)|^2}{\pi T}.$$
 
 Очевидно, введенная таким образом спектральная плотность удовлетворяет естественному условию
 $$I = \overline{x^2(t)} = \frac{1}{2} \int_{-\infty}^{\infty} S(\omega) d\omega,$$
-
 т.к. согласно равенству Парсеваля
 $$ \int_{-T/2}^{T/2} x_T^2(t)dt = \frac{1}{2\pi} \int_{-\infty}^{\infty} |x_T(\omega)|^2 d \omega,$$
-
 и, по определению,
-
 $$
 \overline{x_T^2(t)} = \lim\limits_{T\rightarrow\infty} \frac{1}{T} \int_{-T/2}^{T/2} x_T^2(t) dt.$$
 
 Тем самым теорема доказана:
-
 $$\boxed{\Gamma(\tau) = \frac{1}{2}\int_{-\infty}^{\infty} S(\omega) e^{i\omega \tau} d \omega.}$$
 
 
